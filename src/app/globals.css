@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: var(--font-poppins);
+
+  --color-primary: #382a5e;
+  --color-secondary: #654ca9;
+  --color-dark: #110d1c;
+  --color-light: #FDFDFD;
+  --color-muted: #DBD5EC;
+  --color-border: #dadada;
+}
+
+:root {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+body {
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
