@@ -30,9 +30,6 @@ export function Header() {
           <Link href="/" className="text-sm font-bold text-primary hover:text-secondary uppercase transition-colors">
             Home
           </Link>
-          <Link href="/produtos" className="text-sm font-bold text-primary hover:text-secondary uppercase transition-colors">
-            Produtos
-          </Link>
           <Link href="/sobre" className="text-sm font-bold text-primary hover:text-secondary uppercase transition-colors">
             Sobre Nós
           </Link>
